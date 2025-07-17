@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #fefdf8;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .top-strip {
+    background-color: #2f6124;
+    color: #fff;
+    padding: 0.3rem 2rem;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #e3f2e1;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #2f6124;
+    font-weight: 500;
+  }
+  
+  .hero {
+    background: url("images/banner.jpg") center/cover no-repeat;
+    padding: 6rem 2rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #3c8f40;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .products {
+    padding: 3rem 2rem;
+    background-color: #fff;
+  }
+  
+  .products h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2d472e;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f9f9f9;
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.2s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .product-card h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .product-card p {
+    color: #3c8f40;
+    font-weight: bold;
+  }
+  
+  .product-card button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #3c8f40;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .features {
+    background-color: #f0f7ed;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .feature {
+    flex: 1 1 250px;
+    max-width: 300px;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  }
+  
+  .about, .contact {
+    padding: 3rem 2rem;
+    background-color: #f4f4f4;
+  }
+  
+  .about h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact input, .contact textarea {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact button {
+    padding: 0.75rem;
+    background-color: #3c8f40;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .why-us {
+    background-color: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .why-us h2 {
+    margin-bottom: 2rem;
+    color: #2d472e;
+  }
+  
+  .why-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .why-card {
+    max-width: 350px;
+    background: #f0f7ed;
+    padding: 1.5rem;
+    border-radius: 10px;
+    font-style: italic;
+    color: #4a6a33;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .why-card span {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-style: normal;
+    color: #2f6124;
+  }
+  
+  footer {
+    background-color: #2f6124;
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+  }
+  
